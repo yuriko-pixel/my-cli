@@ -8,7 +8,6 @@ function writeHtml5() {
     fs.writeFileSync(
         `${process.cwd()}/${fileName}`, 
         html5
-    );
 }
 
 writeHtml5();
